@@ -1,0 +1,30 @@
+
+.TodoPageDessign {
+    
+    position: relative;
+    font-family: "Tadoma", "Geneva", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TodoPageDessign hr {
+    border-bottom: 3px solid black;
+    display: block;
+}
+
+
+.TodoCardList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.TodoPageDessign input{
+    width: 95%;
+    margin-bottom: 10px;
+    height: 30px;
+    /* display: block; */
+    /* flex-grow: 1; */
+}

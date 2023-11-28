@@ -1,0 +1,42 @@
+
+
+.TodoCardDessign {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 200px;
+    /* min-height: 200px; */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(163, 255, 214);
+}
+
+.TodoCardDessign.is-completed{
+    opacity: 0.5;
+
+}
+
+.TodoCardDessign.is-completed .card-tittle {
+    text-decoration: line-through;
+}
+
+.TodoCardDessign .card-tittle{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.button-actions-section {
+
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+.button-actions-section .ButtonCardDessign{
+    flex-grow: 1;
+}

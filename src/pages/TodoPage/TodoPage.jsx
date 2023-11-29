@@ -24,7 +24,7 @@ export const TodoPage = () => {
                 {
                     id: Date.now(),
                     tittle: e.target.value,
-                    completed: 0
+                    completed: false
                 }
             ])
 
@@ -38,6 +38,7 @@ export const TodoPage = () => {
         console.log("entra")
 
         let outputTodos = todos.map((todo) => {
+
             if (todo.id == id) {
 
                 return {
@@ -46,10 +47,14 @@ export const TodoPage = () => {
                 }
 
             }
+
+            return todo
+            
         })
 
         setTodos(outputTodos);
 
+        console.log(outputTodos);
 
     }
 

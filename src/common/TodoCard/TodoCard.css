@@ -2,7 +2,7 @@
 
 .TodoCardDessign {
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid rgb(185, 185, 185);
     border-radius: 5px;
     padding: 20px;
     min-width: 200px;
@@ -12,8 +12,18 @@
     justify-content: center;
     flex-direction: column;
 
-    background-color: rgb(163, 255, 214);
+    /* background: rgb(2,0,36); */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 39%, rgba(208,49,122,1) 66%, rgba(255,145,0,1) 92%); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+.TodoCardDessign hr {
+    width: 100%;
+    border-bottom: 0.09em solid rgb(136, 136, 136);
+}
+
+
+
 
 .TodoCardDessign.is-completed{
     opacity: 0.5;

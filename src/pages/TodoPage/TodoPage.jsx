@@ -82,7 +82,7 @@ export const TodoPage = () => {
         <div className="TodoPageDessign">
 
 
-            <h2>Todo List</h2>
+            <h2>LISTADO DE TAREAS ✏️</h2>
 
             <input onKeyUp={addEvent} placeholder="Escribe una nueva tarea..." />
 
